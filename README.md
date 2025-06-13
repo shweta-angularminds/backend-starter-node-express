@@ -6,11 +6,11 @@ A lightweight and modular **backend starter template** built with **Node.js**, *
 
 ## 📆 Tech Stack
 
-* **Node.js**
-* **Express.js**
-* **CORS**
-* **dotenv**
-* **Nodemon** (for development)
+- **Node.js**
+- **Express.js**
+- **CORS**
+- **dotenv**
+- **Nodemon** (for development)
 
 ---
 
@@ -25,7 +25,7 @@ backend-starter/
 │   ├── middlewares/    # Custom middleware functions
 │   ├── controllers/    # Controllers functions
 │   ├── models/         # Models for DB
-│   ├── services/       # Handle logics
+│   ├── services/       # Business logic or service layer
 │   ├── utils/          # Custom helper functions
 │   ├── app.js          # Express app setup and middleware registration
 │   └── server.js       # Entry point for the server
@@ -94,10 +94,10 @@ It should respond with:
 
 ## 🧱 Ideal For
 
-* Quick backend prototypes
-* Learning Express.js
-* Building REST APIs
-* Kickstarting full-stack apps
+- Quick backend prototypes
+- Learning Express.js
+- Building REST APIs
+- Kickstarting full-stack apps
 
 ---
 
@@ -107,10 +107,8 @@ Create a `.env` file based on `.env.example`. Example values:
 
 ```
 PORT=5000
+MONGO_URI=mongodb://localhost:27017/my-database
 ```
-
-
-
 
 ## ✨ Author
 
