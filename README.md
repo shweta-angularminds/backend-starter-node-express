@@ -51,7 +51,7 @@ cp .env.example .env
 
 ---
 
-## 🧪 Run the Project
+## 🏁 Run the Project
 
 ### Development
 
